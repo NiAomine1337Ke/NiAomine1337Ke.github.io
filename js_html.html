@@ -1,0 +1,1601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лицей №1</title>
+    <link rel="stylesheet" href="js_css.css">
+</head>
+<body class="body">
+    <style>
+        *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: white;
+    border-radius: 35px;
+    font-size:18px;
+    font-family:'SF Pro Display',sans-serif;
+    color: black;
+
+}
+header{
+    padding-left:20px ;
+    padding-right:20px;
+    background-color: white;
+    height: 1080px;
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+    display: none;
+    width: 0px;
+  }
+::-webkit-scrollbar-thumb{
+    background-color: white;
+    height: 0px;
+    display: none;
+}
+a{
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+h4{
+    font-size: 32px;
+    font-weight: 450;
+    font-family:'SF Pro Display', sans-serif;
+    z-index: 2;
+    position: relative;
+    text-transform: uppercase;
+    text-align: center;
+}
+h5{
+    font-size: 24px;
+    font-weight: 400;
+    font-family:'SF Pro Display', sans-serif;
+    z-index: 2;
+    position: relative;
+}
+.navigation{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    padding-left:20px ;
+    padding-right:20px;
+    z-index: 1000;
+    /* background-color: white; */
+    /* border-radius: 35px 35px 0px 0px; */
+}
+.logo_div{
+    padding-top: 8px;
+    width:142px;
+    height: 66px;
+}
+.logo{
+    animation: nav 1s forwards;
+    animation-duration: 4.5s;
+    opacity: 0;
+}
+.logo-animate{
+    display: none;
+}
+.nav_text{
+    display: inline-flex;
+    font-weight: 400;
+    padding-top: 28px;
+    z-index: 1;
+}
+.nav_text{
+    animation: nav 1s forwards;
+    animation-duration: 4.5s;
+    opacity: 0;
+    color: white;
+}
+@keyframes nav{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.linka_text{
+    margin-left:50px;
+    width: 105px;
+    height: 31px;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-top: 5px;
+    margin-top: -4px;
+    justify-content: center;
+    display: block;
+}
+.text-animate{
+    color: white;
+}
+.text-animate2{
+    color: black;
+}
+.linka_text:visited, .linka_text:focus, .linka_text:hover {
+    background-color: #E9E9E9;
+    transition: all 0.3s;
+}
+.linka_text:hover .text_nav1{
+    color: black;
+    transition: all 0.3s;
+}
+.linka_text2{
+    margin-left:13px;
+    width: 98px;
+}
+.linka_text3{
+    margin-left:13px;
+    width: 90px;
+}
+.linka_text3{
+    margin-left:13px;
+    width: 90px;
+}
+.linka_text4{
+    margin-left:13px;
+    width: 132px;
+}
+.linka_text5{
+    margin-left:13px;
+    width: 118px;
+}
+.linka_text6{
+    margin-left:13px;
+    position: relative;
+    width: 163px;
+    z-index: 1002;
+}
+.linka_text7{
+    margin-left:13px;
+    width: 237px;
+}
+.linka_text8{
+    margin-left: 449px;
+    width: 143px;
+}
+.linka_text9{
+    margin-left: 13px;
+    width: 45px;
+}
+/*ПЕРВЫЙ ЭКРАН*//*ПЕРВЫЙ ЭКРАН*/
+/*ПЕРВЫЙ ЭКРАН*//*ПЕРВЫЙ ЭКРАН*/
+/*ПЕРВЫЙ ЭКРАН*//*ПЕРВЫЙ ЭКРАН*/
+.block1{
+    position: absolute;
+}
+.line1{
+    width: 51.14%;
+    height: 1px;
+    background-color: #CFCFCF;
+    margin-top: 490px;
+    position: absolute;
+    animation-name: animate_line;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    transition: all 3s;
+    right: 49%;
+} 
+.line1_1{
+    width: 51.14%;
+    height: 1px;
+    background-color: #CFCFCF;
+    margin-top: 490px;
+    position: absolute;
+    left: 50.07%;
+    animation-name: animate_line;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    transition: all 3s;
+}
+@keyframes animate_line {
+    0%{
+        width: 0%;
+    }
+    50%{
+        width: 50%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+.line2{
+    width: 1px;
+    height: 61.25%;
+    background-color: #CFCFCF;
+    margin-left: 940px;
+    margin-top: -66px;
+    bottom: 52%;
+    position: absolute;
+    animation-name: animate_line2;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    transition: all 3s;
+} 
+.line2_2{
+    width: 1px;
+    height: 70.55%;
+    background-color: #CFCFCF;
+    margin-left: 940px;
+    margin-top: -66px;
+    top: 52%;
+    position: absolute;
+    animation-name: animate_line2;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    transition: all 3s;
+}  
+@keyframes animate_line2 {
+    0%{
+        height: 0%;
+    }
+    50%{
+        height: 50%;
+    }
+    100%{
+        height: 100%;
+    }
+}  
+.center-text{
+    position: absolute;
+    z-index: 1;
+    margin-left: 803px;
+    margin-top: 469px;
+    width: 274px;
+}
+.text-center{
+    font-weight: 500;
+    font-size: 36px;
+    position: relative;
+    z-index: 11;
+    animation: nav 1s forwards;
+    animation-duration: 3.1s;
+    opacity: 0;
+}
+.dop-text{
+    padding-top: 930px;
+    display: flex;
+    flex-direction: row;
+}
+.gr1{
+    color: #CFCFCF;
+    font-size: 24px;
+    padding-bottom: 30px;
+    animation: nav 1s forwards;
+    animation-duration: 5s;
+    opacity: 0;
+}
+.gr2{
+    color: #CFCFCF;
+    font-size: 24px;
+    animation: nav 1s forwards;
+    animation-duration: 5s;
+    opacity: 0;
+}
+.dop-text-block{
+    margin-left: 350px;
+    margin-top: -4px;
+}
+.text-dop{
+    font-size: 24px;
+    width: 921px;
+    animation: nav 1s forwards;
+    animation-duration: 5s;
+    opacity: 0;
+}
+/*ВТОРОЙ ЭКРАН*//*ВТОРОЙ ЭКРАН*//*ВТОРОЙ ЭКРАН*/
+/*ВТОРОЙ ЭКРАН*//*ВТОРОЙ ЭКРАН*//*ВТОРОЙ ЭКРАН*/
+/*ВТОРОЙ ЭКРАН*//*ВТОРОЙ ЭКРАН*//*ВТОРОЙ ЭКРАН*/
+.display2{
+    padding-left:20px ;
+    padding-right:20px;
+    background-color: white;
+    height: 1120px;  
+    margin: 0;
+}
+.div_zero_opacity_0{
+    height: 1px;
+}
+.slider{
+    max-width: 1880px;
+    margin: 0 auto;
+}
+.slider-for{
+    max-width: 1880px;
+}
+.slider-nav {
+    display: flex;justify-content: center;align-items: center;flex-wrap: wrap;
+  }
+.back{
+    height:980px ;
+    width:100%;
+    background-color:#F7F7F7 ;
+    margin-top: 99px;
+    border-radius: 25px;
+    color: black;
+}
+.inline-text-stick{
+    display: flex;
+    flex-direction: row;
+}
+.btn .inline-text1:hover{
+    color: black;
+}
+.btn2 .inline-text2:hover{
+    color: black;
+}
+.btn3 .inline-text3:hover{
+    color: black;
+}
+.inline-text{
+    font-size: 30px;
+    font-weight: 400;
+}
+.inline-text:hover{
+    color: black;
+    transition: 0.3s;
+}
+.inline-text1{
+    padding-left: 25px;
+}
+.inline-text2{
+    margin-left: auto;
+    margin-right: auto;
+    color:#767676;
+}
+.inline-text3{
+    padding-right: 25px;
+    color: #797979;
+}
+.div-center-success{
+    width: 1600px;
+    margin-left: 140px;
+    margin-top: 100px;
+}
+.details-success{
+    margin-top: 125px;
+}
+.details{
+    width: 0px;
+    height: 51px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    font-size: 28px;
+    font-weight: 400;
+    padding-left: 5px;
+    padding-top: 7px;
+}
+.details-anim{
+    width: 1820px;
+    transition: all 0.5s ease-in-out;
+}
+.details[open]{
+    height: 138px;
+}
+.details-text{
+    margin-top: 20px;
+    font-size: 24px;
+    color: #767676;
+}
+details summary ~ div{
+    overflow: hidden;
+    }
+    details[open] summary ~ div{ 
+    animation: sweep 1s ease-in-out;
+    }
+    @keyframes sweep {
+    0%    {max-height:0;}
+    100%  {max-height:2000px;}
+    }
+.details2{
+    width: 0px;
+    height: 51px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-bottom: 1px solid black;
+    font-size: 28px;
+    font-weight: 400;
+    padding-left: 5px;
+    padding-top: 7px;
+}
+.details2[open]{
+    height: 138px;
+}
+.details-anim2{
+    width: 1820px;
+    transition: all 0.5s ease-in-out;
+}
+.details3{
+    width: 0px;
+    height: 51px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-bottom: 1px solid black;
+    font-size: 28px;
+    font-weight: 400;
+    padding-left: 5px;
+    padding-top: 7px;
+}
+.details3[open]{
+    height: 108px;
+}
+.details-anim3{
+    width: 1820px;
+    transition: all 0.5s ease-in-out;
+}
+.details4{
+    width: 0px;
+    height: 51px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-bottom: 1px solid black;
+    font-size: 28px;
+    font-weight: 400;
+    padding-left: 5px;
+    padding-top: 7px;
+}
+.details4[open]{
+    height: 138px;
+}
+.details-anim4{
+    width: 1820px;
+    transition: all 0.5s ease-in-out;
+}
+.plus{
+    margin-left: 1625px;
+}
+.plus2{
+    margin-left: 1473px;
+}
+.plus3{
+    margin-left: 1504px;
+}
+.plus4{
+    margin-left: 1558px;
+}
+details summary::-webkit-details-marker {
+    display:none;
+  }
+
+  details,
+  summary,
+  details::marker,
+  summary::marker,
+  details::-webkit-details-marker, 
+  summary::-webkit-details-marker {
+    list-style: none;
+    list-style-type: none;
+    list-style-image: none;
+  }
+.summary-con{
+    display: flex;
+}
+details[open] .plus{
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(45deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+  }
+details[open] .plus2{
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(45deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+}
+details[open] .plus3{
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(45deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+  }
+details[open] .plus4{
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(45deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+  }
+details[open] .plus5{
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(45deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+  }
+details[open] .plus6{
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(45deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+  }
+details[open] .plus7{
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(45deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+  }
+.summary1{
+    transform: translate(0px,120%);
+    opacity: 0;
+    transition: all 0.8s ease;
+}
+.summary1-animation{
+    opacity: 1;
+    transform: translate(0px,0px);
+}
+.summary2{
+    transform: translate(0px,120%);
+    opacity: 0;
+    transition: all 0.8s ease;
+}
+.summary2-animation{
+    opacity: 1;
+    transform: translate(0px,0px);
+}
+.summary3{
+    transform: translate(0px,120%);
+    opacity: 0;
+    transition: all 0.8s ease;
+}
+.summary3-animation{
+    opacity: 1;
+    transform: translate(0px,0px);
+}
+.summary4{
+    transform: translate(0px,120%);
+    opacity: 0;
+    transition: all 0.8s ease;
+}
+.summary4-animation{
+    opacity: 1;
+    transform: translate(0px,0px);
+}
+/*ТРЕТИЙ ЭКРАН*//*ТРЕТИЙ ЭКРАН*//*ТРЕТИЙ ЭКРАН*/
+/*ТРЕТИЙ ЭКРАН*//*ТРЕТИЙ ЭКРАН*//*ТРЕТИЙ ЭКРАН*/
+/*ТРЕТИЙ ЭКРАН*//*ТРЕТИЙ ЭКРАН*//*ТРЕТИЙ ЭКРАН*/
+.display3{
+    padding-left:20px ;
+    padding-right:20px;
+    background-color: white;
+    height: 1120px;  
+    padding-top: 100px;
+}
+.div-center-text-display3{
+    display: flex;
+}
+.center-text-display3{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+    display: inline-block;
+}
+.flex-achivements{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+}
+.str-achivements{
+    height: 50px;
+    width: 940px;
+    border: #DEDEDE;
+    border-top: 2px solid #DEDEDE;
+    border-radius: 10px;
+}
+/* .str-block-achivements:hover{ 
+    color: black;
+    background-color: beige;
+} */
+.str-block-text{
+    display: flex;
+    color: #DEDEDE;
+}
+.str-block-text:hover{
+    color: black;
+    transition: 1s;
+}
+.str-block-achivements:hover .str-block-text {
+    color: black;
+    transition: 1s;
+  }
+.str-block-achivements:hover .str-achivements{
+    border-top: 2px solid black;
+    transition: 1s;
+  }
+.str-text1{
+    font-size: 24px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+}
+.str-text2{
+    font-size: 28px;
+    padding-left: 664px;
+    margin-right: 15px;
+}
+.str-text3{
+    padding-left: 432px;
+    margin-right: 15px;
+}
+.str-text4{
+    padding-left: 520px;
+    margin-right: 15px;
+}
+.str-text5{
+    padding-left: 325px;
+    margin-right: 15px;
+}
+.str-text6{
+    padding-left: 92px;
+    margin-right: 15px;
+}
+.str-text7{
+    padding-left: 480px;
+    margin-right: 15px;
+}
+.str-text8{
+    padding-left: 444px;
+    margin-right: 15px;
+}
+.str-text9{
+    padding-left: 558px;
+    margin-right: 15px;
+}
+.str-text10{
+    padding-left: 625px;
+    margin-right: 15px;
+}
+.image_display3{
+    width: 466px;
+    height: 736px;
+}
+.img-lyceum1{
+    width: 466px;
+    height: 736px;
+    margin-left: 448px;
+    margin-right: 20px;
+}
+/*ЧЕТВЁРТЫЙ ЭКРАН*//*ЧЕТВЁРТЫЙ ЭКРАН*//*ЧЕТВЁРТЫЙ ЭКРАН*/
+/*ЧЕТВЁРТЫЙ ЭКРАН*//*ЧЕТВЁРТЫЙ ЭКРАН*//*ЧЕТВЁРТЫЙ ЭКРАН*/
+/*ЧЕТВЁРТЫЙ ЭКРАН*//*ЧЕТВЁРТЫЙ ЭКРАН*//*ЧЕТВЁРТЫЙ ЭКРАН*/
+.display4{
+    padding-left:20px ;
+    padding-right:20px;
+    background-color: white;
+    margin: 0;
+    height: 1080px;
+    padding-top: 50px;
+}
+.section1-scholl{
+    display: flex;
+    padding-top: 65px;
+}
+.director{
+    font-size:18px;
+    font-weight: 400;
+    color: #CFCFCF;
+    width: 410px;
+}
+.text-director{
+    float: right;
+    padding-bottom: 12px;
+}
+.director-img{
+    border-radius: 30px;
+    margin-right: 30px;
+}
+.section-teacher2345{
+    display: none;
+    animation-duration: 10s;
+}
+.section-teacher1{
+    padding-top: 33px;
+}
+.section-teacher2{
+    padding-top: 30px;
+}
+.teacher1-img{
+    border-radius: 30px;
+    margin-right: 30px;
+    margin-left: 35px;
+}
+.teacher2-img{
+    margin-right: 30px;
+    border-radius: 30px;
+}
+.teacher4-img{
+    border-radius: 30px;
+}
+.btn {
+    display: inline-block;
+    cursor: pointer;
+  }
+.button{
+    width: 1410px;
+    height: 54px;
+    color: #767676;
+    background-color: #F7F7F7;
+    text-align: center;
+    padding-top: 15px;
+    border-radius: 18px;
+    margin-left: 35px;
+    margin-top: 35px;
+    font-size: 22px
+}
+.button:hover{
+    background-color: black;
+    color: white;
+    padding-top: 14px;
+    transition: all 0.5s;
+}
+.teacher-text-main{
+    font-size: 28px;
+    font-weight: 400;
+    text-indent: 440px;
+    margin-top: 40px;
+}
+/*ПЯТЫЙ ЭКРАН*//*ПЯТЫЙ ЭКРАН*//*ПЯТЫЙ ЭКРАН*/
+/*ПЯТЫЙ ЭКРАН*//*ПЯТЫЙ ЭКРАН*//*ПЯТЫЙ ЭКРАН*/
+/*ПЯТЫЙ ЭКРАН*//*ПЯТЫЙ ЭКРАН*//*ПЯТЫЙ ЭКРАН*/
+.display5{
+    padding-left:20px ;
+    padding-right:20px;
+    background-color: white;
+    height: 1120px;  
+    margin: 0;
+    padding-top: 50px;
+}
+.scale {
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 25px;
+    margin-top: 80px;
+    }
+.scale1{
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 25px;
+    margin-top: 30px;
+}
+.img-event1{
+    height: 400px;
+    width: 1870px;
+    border-radius: 25px;
+}
+
+.scale img {
+    transition: 1s;
+    display: block;
+    border-radius: 25px;
+    }
+    .scale img:hover {
+    transform: scale(1.2);
+    border-radius: 25px;
+    }
+    .scale1 img {
+        transition: 1.5s;
+        display: block;
+        border-radius: 25px;
+        }
+    .scale1 img:hover {
+    transform: scale(1.2);
+    border-radius: 25px;
+    }
+.img-event3{
+    border-radius: 25px;
+}
+.img-event2{
+    border-radius: 25px;
+}
+/*ШЕСТОЙ ЭКРАН*//*ШЕСТОЙ ЭКРАН*//*ШЕСТОЙ ЭКРАН*/
+/*ШЕСТОЙ ЭКРАН*//*ШЕСТОЙ ЭКРАН*//*ШЕСТОЙ ЭКРАН*/
+/*ШЕСТОЙ ЭКРАН*//*ШЕСТОЙ ЭКРАН*//*ШЕСТОЙ ЭКРАН*/
+footer{
+    padding-left:20px ;
+    padding-right:20px;
+    background-color: #F7F7F7;
+    height: 1140px;  
+    margin: 0;
+    border-radius: 25px 25px 0px 0px;
+}
+.logo_footer_white{
+    padding-top: 32px;
+    padding-left: 10px;
+}
+.block-text1-footer{
+    display: flex;
+    margin-top: 53px;
+}
+.block-text2-footer{
+    display: flex;
+    margin-top: 68px;
+    padding-bottom: 75px;
+}
+.text-div1{
+    margin-left: 10px;
+    margin-right: 100px;
+}
+.text-div2{
+    margin-right: 100px;
+}
+.text-div3{
+    margin-right: 100px;
+}
+.text-div4{
+    width: 590px;
+}
+.text-div5{
+    padding-left: 762px;
+    margin-right: 266px;
+}
+.block-text-secondary{
+    font-size: 18px;
+    color: #767676;
+    z-index: 10;
+}
+.text-secondary1{
+    padding-top: 23px;
+    z-index: 2;
+    position: relative;
+}
+.text-secondary1:hover{
+    color: black;
+    transition: 0.1s;
+}
+.text-secondary2:hover{
+    color: black;
+    transition: 0.1s;
+}
+.text-secondary2{
+    padding-top: 18px;
+    position: relative;
+    z-index: 2;
+}
+.line3{
+    position: absolute;
+    right: 49.84%;
+    width: 1px;
+    height: 0px;
+    background-color: #CFCFCF;
+    margin-top: -1070px;
+    z-index: 0;
+}
+.line4{
+    height: 1615px;
+    position: absolute;
+    right: 50%;
+    rotate: -45deg;
+    margin-left: -20px;
+    width: 1px;
+    background-color: #CFCFCF;
+    margin-top: -1306px;
+    z-index: 0;
+}
+.line5{
+    position: absolute;
+    right: 50%;
+    rotate: 59.3deg;
+    width: 1px;
+    height: 2214px;
+    background-color: #CFCFCF;
+    margin-top: -1600px;
+    z-index: 0;
+}
+.line-anim{
+    height: 1140px;
+    animation-name: animate_line3;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    transition: all 3s;
+} 
+.line-anim2{
+    height: 1615px;
+    animation-name: animate_line3;
+    animation-duration: 0s;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    transition: all 3s;
+} 
+@keyframes animate_line3 {
+    0%{
+        height: 0%;
+    }
+    50%{
+        height: 50%;
+    }
+    100%{
+        height: 100%;
+    }
+}  
+
+.slider {
+    width: 100%;
+    overflow: hidden;
+}
+.slide {
+    display: none;
+}
+.buttons {
+    margin-top: 10px;
+    display: inline;
+}
+.btn {
+    border: none;
+    cursor: pointer;
+    background-color: #F7F7F7;
+    height: 60px;
+    width: 105px;
+    border-radius: 30px;
+}
+.btn2 {
+    border: none;
+    cursor: pointer;
+    background-color: #F7F7F7;
+    height: 34px;
+    width: 164px;
+    margin-right: 734.75px;
+    margin-left: 734.75px;
+    margin-top: 25px;
+}
+.btn3 {
+    border: none;
+    cursor: pointer;
+    background-color: #F7F7F7;
+    height: 34px;
+    width: 125px;
+}
+.start-block{
+    display: flex;
+}
+.start-block-big-img{
+    margin-top: 20px;
+    margin-left: 24px;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 25px;
+}
+.start-block-big-img img {
+    transition: 1s;
+    display: block;
+    border-radius: 25px;
+    }
+    .start-block-big-img img:hover {
+    transform: scale(1.2);
+    border-radius: 25px;
+    }
+.start-big-img{
+    border-radius: 25px;
+}
+.back-text-div{
+    margin-top: 20px;
+}
+.back-text-div{
+    height: 499px;
+    width: 902px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 27.4px;
+    border-radius: 25px;
+    background-color: #F2F2F2;
+    margin-left: 23PX;
+}
+.text-zag-start{
+    font-size: 24px;
+    color: #767676;
+}
+.text-start{
+    margin-top: 43px;
+    line-height: 135%;
+}
+.start-small-img-div{
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 25px;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.start-small-img-div img {
+    transition: 1s;
+    display: block;
+    border-radius: 25px;
+    }
+    .start-small-img-div img:hover {
+    transform: scale(1.1);
+    border-radius: 25px;
+    }
+.start-small-img{
+    border-radius: 25px;
+}
+.here{
+    display: flex;
+    margin-top: 20px;
+}
+.inputs-div{
+    height: 611px;
+    width: 1107px;
+    background-color: #F2F2F2 ;
+    border-radius: 25px;
+    margin-left: 24px;
+}
+.contacts-div{
+    height: 213px;
+    width: 1107px;
+    background-color: #F2F2F2 ;
+    border-radius: 25px;
+    margin-left: 24px;
+    margin-top: 25px;
+}
+.inputs-text-div{
+    font-size: 28px;
+    padding-top: 30px;
+    padding-left: 25px;
+}
+input{
+    width: 1057px;
+    height: 52px;
+    background-color: #E9E9E9;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none; 
+    border-radius: 9px; 
+    font-size: 22px;
+    padding-left: 15px;
+    border-bottom: none;
+    margin-left: 25px;
+}
+.input1{
+    margin-top: 40px;
+    margin-bottom: 21px;
+}
+.input2{
+    margin-bottom: 21px;
+}
+input::placeholder{
+    color: #7c7c7c;
+}
+.input3{
+    color: #7c7c7c;
+    width: 1057px;
+    height: 52px;
+    background-color: #E9E9E9;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none; 
+    border-radius: 9px; 
+    font-size: 22px;
+    padding-left: 15px;
+    border-bottom: none;
+    margin-left: 25px;
+    padding-top: 11px;
+    display: flex;
+}
+.inputs-btn{
+    width: 1057px;
+    height: 52px;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 9px; 
+    font-size: 22px;
+    padding-left: 15px;
+    margin-left: 25px;
+    margin-top: 21px;
+    color: black;
+}
+.inputs-btn:hover{
+    background-color: black;
+    color: white;
+    transition: all 0.5s;
+}
+.here-img-div{
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 25px;
+    margin-left: 25px;
+}
+.here-img-div img{
+    transition: 1s;
+    display: block;
+    border-radius: 25px;
+    }
+.here-img-div img:hover{
+    transform: scale(1.2);
+    border-radius: 25px;
+}
+.start-small-img{
+    border-radius: 25px;
+}
+.button-input{
+    height: 42px;
+    width: 42px;
+    border: 2px solid black;
+    margin-left: 505px;
+    margin-top: -6px;
+    margin-right: 5px;
+    border-radius: 15px;
+    transition: all 0.5s;
+    transition: all 9999999s;
+}
+.button-input:active {
+    background: black;
+    border: none;
+    transition: all 0s;
+  }
+.contacts-text-main{
+    font-size: 28px;
+    padding-top: 30px;
+    padding-left: 25px;
+}
+.main-text-con{
+    font-size: 22px;
+    color: #555555;
+}
+.block-text-con1{
+    margin-left: 25px;
+    margin-top: 35px;
+}
+.block-text-con2{
+    margin-left: 80px;
+    margin-top: 35px;
+}
+.block-text-con3{
+    margin-left: 80px;
+    margin-top: 35px;
+}
+.div-text-contacts{
+    display: flex;
+}
+.text-conntacts{
+    font-size: 18px;
+    color: #767676;
+    margin-top: 25px;
+}
+.text-conntacts2{
+    font-size: 18px;
+    color: #767676;
+    width: 453px;
+    margin-top: 25px;
+}
+.input-line-text{
+    background-color: #7c7c7c;
+    height: 1.45px;
+    width: 332px;
+    position: absolute;
+    margin-top: 26px;
+    margin-left: 158px;
+}
+    </style>
+    <div class="navigation">
+        <a href="#"><div class="logo_div"><img src="картинки\WHITE_LOGO.png" alt="" class="logo"></div></a>
+        <div class="nav_text">
+            <div class="linka_text"><a href="#header"><p class="text_nav1">Лицей №1</p></a></div>
+            <div class="linka_text linka_text2"><a href="#contacts"><p class="text_nav1">Контакты</p></a></div>
+            <div class="linka_text linka_text3"><a href="#footer"><p class="text_nav1">Новости</p></a></div>
+            <div class="linka_text linka_text4"><a href="#event"><p class="text_nav1">Мероприятия</p></a></div>
+            <div class="linka_text linka_text5"><a href="#footer"><p class="text_nav1">Расписание</p></a></div>
+            <div class="linka_text linka_text6"><a href="#footer"><p class="text_nav1">Услуги и сервисы</p></a></div>
+            <div class="linka_text linka_text7"><a href="#footer"><p class="text_nav1">Сведения об организации</p></a></div>
+            <div class="linka_text linka_text8"><a href="js_html_black.html"><p class="text_nav1">Темный режим</p></a></div>
+            <div class="linka_text linka_text9"><a href="#"><p class="text_nav1">EN</p></a></div>
+        </div>
+    </div>
+    <header id="header">
+        <div class="block1">
+            <div class="line">
+                <div class="line1"></div>
+                <div class="line1_1"></div>
+                <div class="line2"></div>
+                <div class="line2_2"></div>
+            </div>
+            <div class="text">
+                <div class="center-text">
+                    <p class="text-center">MBOU LYCEUM 1</p>
+                </div>
+                <div class="dop-text">
+                    <div class="grey-text">
+                        <p class="gr1">"100 лучших школ Республики Татарстан"</p>
+                        <p class="gr2">"Входит в топ-20 лучших школ Республики Татарстан"</p>
+                    </div>
+                    <div class="dop-text-block">
+                        <p class="text-dop">Является инновационным учебным учреждением, имеет высокий рейтинг в городе и республике, а также стабильно высокие результаты в образовательной подготовке лицеистов и качестве их обучения.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="display2" id="contacts">
+        <div class="container">
+            <div class="slider">
+                <div class="slide" style="display: block;">
+                    <div class="back">
+                        <div class="buttons">
+                            <button class="btn" data-slide="0"><p class="inline-text inline-text1">Успех</p></button>
+                            <button class="btn2" data-slide="1"><p class="inline-text inline-text2">Начинается</p></button>
+                            <button class="btn3" data-slide="2"><p class="inline-text inline-text3">Здесь!</p></button>
+                        </div>  
+                        <div class="success-block">
+                            <div class="div-center-success">
+                                <h4 class="text-success">Добро пожаловать в мир новых открытий, увлекательных занятий, добрых наставников и верных друзей!</h4>
+                            </div>
+                            <div class="details-success">
+                                <details class="details">
+                                    <summary class="summary1">
+                                        <div class="summary-con">
+                                            <p class="sum-text">Атмосфера</p>
+                                            <img src="картинки\Group 43.png" alt="" class="plus">
+                                        </div>
+                                    </summary>
+                                    <div>
+                                        <p class="details-text">У нас царит образовательная атмосфера, все располагает к тому, чтобы ребенок учился, интересные уроки, большой выбор полезной и интересной внеурочной деятельности.</p>
+                                    </div>
+                                </details>
+                                <details class="details2" class="details">
+                                    <summary class="summary2">
+                                        <div class="summary-con">
+                                            <p class="sum-text">Педагогический состав</p>
+                                            <img src="картинки\Group 43.png" alt="" class="plus2">
+                                        </div>
+                                    </summary>
+                                    <div>
+                                        <p class="details-text">Каждый наш педагог - профессионал своего дела. Наши педагоги являются экспертами ЕГЭ, председателями и членами жюри многочисленных олимпиад, конкурсов.</p>
+                                    </div>
+                                </details>
+                                <details class="details3" class="details">
+                                    <summary class="summary3">
+                                        <div class="summary-con">
+                                            <p class="sum-text">Инностранные языки</p>
+                                            <img src="картинки\Group 43.png" alt="" class="plus3">
+                                        </div>
+                                    </summary>
+                                    <div>
+                                        <p class="details-text">Помимо английского в лицее преподается второй иностранный язык.</p>
+                                    </div>
+                                </details>
+                                <details class="details4" class="details">
+                                    <summary class="summary4">
+                                        <div class="summary-con">
+                                            <p class="sum-text">Наши выпусники</p>
+                                            <img src="картинки\Group 43.png" alt="" class="plus4">
+                                        </div>
+                                    </summary>
+                                    <div>
+                                        <p class="details-text">Наши выпускники учатся в ведущих ВУЗах России и мира(Гарвардский университет, Босфорский университет, Сорбонна, МГУ, НИУ ВШЭ, КФУ). Также наши выпускники работают в ведущих компаниях.(Яндекс, Роснефть, BCG, PWC и др.)</p>
+                                    </div>
+                                </details>
+                            </div>
+                        </div>               
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="back">
+                        <div class="buttons">
+                            <button class="btn" data-slide="0"><p class="inline-text inline-text1" style="color: #767676;">Успех</p></button>
+                            <button class="btn2" data-slide="1"><p class="inline-text inline-text2" style="color: black;">Начинается</p></button>
+                            <button class="btn3" data-slide="2"><p class="inline-text inline-text3" style="color: #767676;">Здесь!</p></button>
+                        </div> 
+                        <div class="start">
+                            <div class="start-block"> 
+                                <div class="start-block-big-img">
+                                    <img src="картинки\slider-foto-lyceum.png" alt="" class="start-big-img">
+                                </div>
+                                <div class="text-foto-start-section">
+                                    <div class="back-text-div">
+                                        <p class="text-zag-start">Начало всегда важно </p>
+                                        <p class="text-start">В нашей школе начало обучения — это не просто первый шаг на пути к знаниям, это старт в увлекательном путешествии к успеху. Здесь мы вкладываем фундамент знаний, который становится основой навсегда. Процесс обучения начинается с прекрасных учителей, страстно любящих свое дело, и с учеников, готовых ставить перед собой высокие цели и стремиться к достижению лучших результатов. У нас каждый ученик обретает не только знания, но и навыки, которые помогут ему стать успешным в будущем. В нашей школе начинается путь к большим свершениям. Присоединяйтесь, и давайте вместе строить будущее!</p>
+                                    </div>
+                                    <div class="start-small-img-div">
+                                        <img src="картинки\slider-small-foto-lyceum.png" alt="" class="start-small-img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="back">
+                        <div class="buttons">
+                            <button class="btn" data-slide="0"><p class="inline-text inline-text1" style="color: #767676;">Успех</p></button>
+                            <button class="btn2" data-slide="1"><p class="inline-text inline-text2" style="color: #767676;">Начинается</p></button>
+                            <button class="btn3" data-slide="2"><p class="inline-text inline-text3" style="color: black;">Здесь!</p></button>
+                        </div> 
+                        <div class="here">
+                            <div class="input-div-back">
+                                <div class="inputs-div">
+                                    <p class="inputs-text-div">Отправить заявку</p>
+                                    <input type="text" required placeholder="ФИО Родителя*" class="input1">
+                                    <input type="text" required placeholder="ФИО Ученика*" class="input2">
+                                    <input type="text" required placeholder="Номер телефона*" class="input2">
+                                    <input type="email" required placeholder="E-mail*" class="input2">
+                                    <input type="text" placeholder="Напишите нам(не обязательно)" class="input2">
+                                    <div class="input3">
+                                        <p class="input-text">Я согласен(a) с политикой конфиденциальности</p>
+                                        <div class="input-line-text"></div>
+                                        <div class="button-input"></div>
+                                    </div>
+                                    <button class="inputs-btn">Отправить</button>
+                                </div>
+                                <div class="contacts-div">
+                                    <p class="contacts-text-main">Наши контакты</p>
+                                    <div class="div-text-contacts">
+                                        <div class="block-text-con1">
+                                            <p class="main-text-con">Номер телефона</p>
+                                            <p class="text-conntacts">+7(843)-425-42-70</p>
+                                        </div>
+                                        <div class="block-text-con2">
+                                            <p class="main-text-con">E-mail</p>
+                                            <p class="text-conntacts">sch_1157@mail.ru L1.Ctp@tatar.ru</p>
+                                        </div>
+                                        <div class="block-text-con3">
+                                            <p class="main-text-con">Адрес</p>
+                                            <p class="text-conntacts2">422980, Республика Татарстан, Чистопольский район, г. Чистополь, ул. Толстого, 144</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="here-img-div">
+                                <img src="картинки\image 1.png" alt="" class="here-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </section>
+    <section class="display3">
+        <div class="container">
+            <div class="achievements">
+                <div class="div-center-text-display3">
+                    <p class="center-text-display3">Наши достижения</p>
+                </div>
+                <div class="flex-achivements">
+                    <div class="block_achivements">
+                        <div class="str-block-achivements str-block-achivements1">
+                            <div class="str-block-text  str-block-text1">
+                                <p class="str-text1">Место в Республике</p>
+                                <p class="str-text2">14</p>
+                            </div>
+                            <div class="str-achivements str-achivements1"></div>
+                        </div>
+                        <div class="str-block-achivements str-block-achivements2">
+                            <div class="str-block-text">
+                                <p class="str-text1">Выпускников с золотой медалью за 2023г.</p>
+                                <p class="str-text2 str-text3">7</p>
+                            </div>
+                            <div class="str-achivements str-achivements2"></div>
+                        </div>
+                        <div class="str-block-achivements str-block-achivements3">
+                            <div class="str-block-text">
+                                <p class="str-text1">Средний балл ЕГЭ в 2023 году</p>
+                                <p class="str-text2 str-text4">72,5</p>
+                            </div>
+                            <div class="str-achivements str-achivements3"></div>
+                        </div>
+                        <div class="str-block-achivements str-block-achivements4">
+                            <div class="str-block-text">
+                                <p class="str-text1">Выпускников сдавших ЕГЭ на 80 и более баллов</p>
+                                <p class="str-text2 str-text5">30%</p>
+                            </div>
+                            <div class="str-achivements str-achivements4"></div>
+                        </div>
+                        <div class="str-block-achivements str-block-achivements5">
+                            <div class="str-block-text">
+                                <p class="str-text1">Призовых мест на региональном этапе  Всероссийской олимпиаде 2023</p>
+                                <p class="str-text2 str-text6">17</p>
+                            </div>
+                            <div class="str-achivements str-achivements5"></div>
+                        </div>
+                        <div class="str-block-achivements str-block-achivements6">
+                            <div class="str-block-text">
+                                <p class="str-text1">Средний балл ЕГЭ по Математике</p>
+                                <p class="str-text2 str-text7">68,3</p>
+                            </div>
+                            <div class="str-achivements str-achivements6"></div>
+                        </div>
+                        <div class="str-block-achivements str-block-achivements7">
+                            <div class="str-block-text">
+                                <p class="str-text1">Средний балл ЕГЭ по Русскому языку</p>
+                                <p class="str-text2 str-text8">81,8</p>
+                            </div>
+                            <div class="str-achivements str-achivements7"></div>
+                        </div>
+                        <div class="str-block-achivements str-block-achivements8">
+                            <div class="str-block-text">
+                                <p class="str-text1">Средняя сумма баллов ЕГЭ </p>
+                                <p class="str-text2 str-text9">235</p>
+                            </div>
+                            <div class="str-achivements str-achivements8"></div>
+                        </div>
+                        <div class="str-block-achivements str-block-achivements9">
+                            <div class="str-block-text">
+                                <p class="str-text1">Количество учеников</p>
+                                <p class="str-text2 str-text10">360</p>
+                            </div>
+                            <div class="str-achivements str-achivements9"></div>
+                        </div>
+                    </div>
+                    <div class="image_display3"><img src="картинки\display2_black.png" alt="" class="img-lyceum1"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="display4" id="changeStyleElement">
+        <div class="container">
+            <div class="compound">
+                <div class="div-center-text-display3">
+                    <p class="center-text-display3">Педагоги и директор</p>
+                </div>
+                <div class="slider_teacher">
+                    <div class="section1-scholl">
+                        <div class="director">
+                            <p class="text-director">Директор</p>
+                            <img src="картинки\учителя\директор.png" alt="" class="director-img">
+                        </div>
+                        <div class="teacher">
+                            <div class="section-teacher1">
+                                <img src="картинки\учителя\марина.png" alt="" class="teacher1-img">
+                                <img src="картинки\учителя\галина.png" alt="" class="teacher2-img">
+                                <img src="картинки\учителя\юлия.png" alt="" class="teacher2-img">
+                                <img src="картинки\учителя\ирина.png" alt="" class="teacher4-img">
+                            </div>
+                            <div class="section-teacher2345">
+                            <div class="section-teacher2">
+                                <img src="картинки\учителя\ольга.png" alt="" class="teacher1-img">
+                                <img src="картинки\учителя\татьяна.png" alt="" class="teacher2-img">
+                                <img src="картинки\учителя\любовь.png" alt="" class="teacher2-img">
+                                <img src="картинки\учителя\вера.png" alt="" class="teacher4-img">
+                            </div>
+                            <div class="section-teacher2">
+                                <img src="картинки\учителя\эльвира.png" alt="" class="teacher1-img">
+                                <img src="картинки\учителя\дания.png" alt="" class="teacher2-img">
+                                <img src="картинки\учителя\эльвира асгатовна.png" alt="" class="teacher2-img">
+                                <img src="картинки\учителя\елена ивановна.png" alt="" class="teacher4-img">
+                            </div>
+                            <div class="section-teacher2">
+                                <img src="картинки\учителя\гульнара.png" alt="" class="teacher1-img">
+                                <img src="картинки\учителя\асия.png" alt="" class="teacher2-img">
+                                <img src="картинки\учителя\серега.png" alt="" class="teacher2-img">
+                                <img src="картинки\учителя\наталья михайловна.png" alt="" class="teacher4-img">
+                            </div>
+                            <div class="section-teacher2">
+                                <img src="картинки\учителя\елена михайловна.png" alt="" class="teacher1-img">
+                                <img src="картинки\учителя\айратик.png" alt="" class="teacher2-img">
+                                <img src="картинки\учителя\наталья николаевна.png" alt="" class="teacher2-img">
+                                <img src="картинки\учителя\энже.png" alt="" class="teacher4-img">
+                            </div>
+                            <div class="section-teacher2">
+                                <img src="картинки\учителя\татьяна сергеевна.png" alt="" class="teacher1-img">
+                                <img src="картинки\учителя\гульназ.png" alt="" class="teacher2-img">
+                                <img src="картинки\учителя\марина.png" alt="" class="teacher2-img">
+                                <img src="картинки\учителя\галина.png" alt="" class="teacher4-img">
+                            </div>
+                            </div>
+                            <div class="button" id="changeStyleButton">
+                                <p class="button-text">Полный педагогический состав</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="div-teacher-text"><p class="teacher-text-main">
+                        Современная школа — это большой и надёжный дом, в котором созданы учителя, сотрудники школы, ученики, родители. Этот дом как по кирпичику складывается из наших добрых дел, доброты, талантов и старания. В этом доме есть место работе и отдыху, праздникам и интересным будням, а главное — добрым традициям. Здесь каждого ребенка ждут мои коллеги — мудрые, умные и неравнодушные люди, для обеспечения успеха любого дела — сотрудничество всех участников образовательной деятельности, основанное на взаимоуважении и взаимопомощи.
+                    </p></div>
+                    <div class=""></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="display5" id="event">
+        <div class="container">
+            <div class="event">
+                <div class="div-center-text-display3">
+                    <p class="center-text-display3">Мероприятия</p>
+                </div>
+                <div class="img-event-display5">
+                    <div class="scale"><img src="картинки\snapedit_1710506114932.jpeg" alt="" class="img-event1" class="scale"></div> 
+                    <div class="scale1"><img src="картинки\Frame 44.png" alt="" class="img-event2" class="scale"></div> 
+                    <div class="scale1" style="margin-left: 25px;"><img src="картинки\Frame 43.png" alt="" class="img-event3" class="scale"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="container">
+            <div class="display6">
+                <div class="logo_footer_white">
+                    <img src="картинки\LYCEUM 1.png" alt="" class="img_foter_logo">
+                </div>
+                <div class="block-text1-footer">
+                    <div class="text-div1">
+                        <h5 class="title_text">Наш лицей</h5>
+                        <div class="block-text-secondary">
+                            <p class="text-secondary1">О лицее</p>
+                            <p class="text-secondary2">Администрация</p>
+                            <p class="text-secondary2">Педагогический состав</p>
+                            <p class="text-secondary2">Профильные направления</p>
+                            <p class="text-secondary2">Наши классы</p>
+                            <p class="text-secondary2">Достижения и победы</p>
+                        </div>
+                    </div>
+                    <div class="text-div2">
+                        <h5 class="title_text">Педагогам и сотрудникам</h5>
+                        <div class="block-text-secondary">
+                            <p class="text-secondary1">Электронный журнал</p>
+                            <p class="text-secondary2">Образовательные ресурсы</p>
+                            <p class="text-secondary2">Профессиональные стандарты</p>
+                            <p class="text-secondary2">Аттестация педагогических работников</p>
+                            <p class="text-secondary2">Новости Минпросвещения России</p>
+                            <p class="text-secondary2">Повышение квалификации</p>
+                            <p class="text-secondary2">Наставничество</p>
+                            <p class="text-secondary2">Профсоюзная организация</p>
+                            <p class="text-secondary2">Вакансии</p>
+                        </div>
+                    </div>
+                    <div class="text-div3">
+                        <h5 class="title_text">Родителям и ученикам</h5>
+                        <div class="block-text-secondary">
+                            <p class="text-secondary1">Полезная информация</p>
+                            <p class="text-secondary2">Новости Минпросвещения России</p>
+                            <p class="text-secondary2">Мероприятия</p>
+                            <p class="text-secondary2">Платные образовательные услуги</p>
+                            <p class="text-secondary2">Новости</p>
+                            <p class="text-secondary2">Каникулы</p>
+                            <p class="text-secondary2">Секции и кружки (дополнительное образование)</p>
+                            <p class="text-secondary2">Олимпиады и конференции</p>
+                            <p class="text-secondary2">Стипендии и меры поддержки обучающихся</p>
+                            <p class="text-secondary2">Услуги и сервисы</p>
+                        </div>
+                    </div>
+                    <div class="text-div4">
+                        <h5 class="title_text">Сведения об образовательной организации</h5>
+                        <div class="block-text-secondary">
+                            <p class="text-secondary1">Организация питания в образовательной организации</p>
+                            <p class="text-secondary2">Руководство. Педагогический (научно-педагогический) состав</p>
+                            <p class="text-secondary2">Структура и органы управления образовательной организацией</p>
+                            <p class="text-secondary2">Материально-техническое обеспечение и оснащенность образовательного процесса</p>
+                            <p class="text-secondary2">Основные сведения</p>
+                            <p class="text-secondary2">Документы</p>
+                            <p class="text-secondary2">Образование</p>
+                            <p class="text-secondary2">Образовательные стандарты и требования</p>
+                            <p class="text-secondary2">Стипендии и меры поддержки обучающихся</p>
+                            <p class="text-secondary2">Платные образовательные услуги</p>
+                            <p class="text-secondary2">Финансово-хозяйственная деятельность</p>
+                            <p class="text-secondary2">Вакантные места для приема (перевода) обучающихся</p>
+                            <p class="text-secondary2">Международное сотрудничество</p>
+                            <p class="text-secondary2">Доступная среда</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="block-text2-footer">
+                    <div class="text-div5">
+                        <h5 class="title_text">Официально</h5>
+                        <div class="block-text-secondary">
+                            <p class="text-secondary1">Воспитательная работа</p>
+                            <p class="text-secondary2">Противодействие коррупции</p>
+                        </div>
+                    </div>
+                    <div class="text-div6">
+                        <h5 class="title_text">Вопросы и ответы</h5>
+                        <div class="block-text-secondary">
+                            <p class="text-secondary1">Контакты</p>
+                            <p class="text-secondary2">Независимая оценка качества образования</p>
+                            <p class="text-secondary2">Независимая оценка качества условий образовательной деятельности</p>
+                            <p class="text-secondary2">Независимая оценка качества подготовки обучающихся</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="background_lines">
+                    <div class="line3"></div>
+                    <div class="line4"></div>
+                    <div class="line5"></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="js_html_black.js"></script>
+</body>
+</html>
